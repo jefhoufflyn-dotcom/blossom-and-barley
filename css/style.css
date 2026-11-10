@@ -213,6 +213,11 @@ h1 em, h2 em { color: var(--coral); }
 .join__form .ml-form-embedContainer button.primary:hover { background: var(--deep) !important; }
 .join__form .ml-form-embedContainer .ml-form-successBody h4 { color: var(--green) !important; }
 
+.join__privacy { font-size: .85rem; opacity: .8; margin: 1rem 0 0; }
+.join__privacy a { color: var(--sun); }
+.join__form .ml-form-embedContainer { margin: 0 !important; }
+.join__form .ml-form-embedContainer .ml-form-embedWrapper.embedForm { max-width: none !important; width: 100% !important; }
+
 /* SHARE */
 .share {
   max-width: var(--max); margin: 0 auto;
